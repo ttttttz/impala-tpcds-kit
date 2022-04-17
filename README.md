@@ -38,7 +38,7 @@ impala-shell -f impala-external.sql
 Create Parquet tables:
 
 ```
-impala-shell -f impala-parquet.sql
+impala-shell -f impala-orc.sql
 ```
 
 Load Parquet tables and compute stats:
